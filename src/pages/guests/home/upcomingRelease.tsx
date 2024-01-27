@@ -1,8 +1,8 @@
 import { ComicCard } from "@/sharedComponents/comicCard";
 import card1 from "@/assets/images/remember.svg";
 import card2 from "@/assets/images/higher-sacrifice.svg";
-import card3 from "@/assets/images/Watchmen.svg";
-import card4 from "@/assets/images/Mother.svg";
+import card3 from "@/assets/images/watchmen.svg";
+import card4 from "@/assets/images/mother.svg";
 import "./styles.scss";
 
 export const UpcomingRelease = () => {

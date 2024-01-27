@@ -1,7 +1,7 @@
 import { ComicCard } from "@/sharedComponents/comicCard";
 import card1 from "@/assets/images/remember.svg";
 import card2 from "@/assets/images/higher-sacrifice.svg";
-import card3 from "@/assets/images/Watchmen.svg";
+import card3 from "@/assets/images/watchmen.svg";
 import card4 from "@/assets/images/mother.svg";
 import card5 from "@/assets/images/bloodlines.svg";
 import card6 from "@/assets/images/rest.svg";
@@ -9,7 +9,7 @@ import card7 from "@/assets/images/different-tribe2.svg";
 import card8 from "@/assets/images/war.svg";
 import card9 from "@/assets/images/mr-shepard.svg";
 import card10 from "@/assets/images/confrontation.svg";
-import card11 from "@/assets/images/ the-white-knight.svg";
+import card11 from "@/assets/images/the-white-knight.svg";
 import card12 from "@/assets/images/disruption.svg";
 import card13 from "@/assets/images/the-prodigal.svg";
 import card14 from "@/assets/images/one-of-a-kind.svg";

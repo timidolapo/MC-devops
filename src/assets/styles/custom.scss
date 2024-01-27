@@ -148,6 +148,12 @@ body {
       height: 3.5rem;
     }
   }
+  @media (max-width: 1075px) {
+    bottom: 3rem;
+  }
+  @media (max-width: 975px) {
+    bottom: 2rem;
+  }
   @media (max-width: 767px) {
     bottom: 3.7rem;
   }
@@ -181,9 +187,16 @@ body {
   position: relative;
   .slick-dots {
     bottom: 8.7rem;
-    left: -10rem;
+    right: 13%;
+    @media (max-width: 1075px) {
+      bottom: 2.7rem;
+    }
+    @media (max-width: 975px) {
+      right: 10%;
+      bottom: 1.7rem;
+    }
     @media (max-width: 767px) {
-      left: 0rem;
+      right: 0%;
       bottom: 1.7rem;
     }
     li {

@@ -7,7 +7,7 @@
   }
   .slider-wrapper {
     ul {
-      height: 68vh;
+      height: 70vh;
       img {
         border-radius: 2.4rem;
         width: 100%;
@@ -59,6 +59,7 @@
     position: relative;
     min-width: 29.4rem;
     max-width: 100%;
+
     .overlay {
       position: absolute;
       height: 100%;
@@ -70,11 +71,19 @@
       display: flex;
       flex-direction: column;
       justify-content: center;
-      align-items: center;
+      // align-items: center;
+      .title {
+        // position: absolute;
+        // top: 0;
+        // bottom: 0;
+        transform: translateX(42%);
+        transition: all ease 0.8s;
+      }
       .desc {
         transform: translate(200%, 50%);
         transition: all ease 0.8s;
         position: absolute;
+        line-height: 1;
       }
     }
     .card-img {
@@ -85,9 +94,13 @@
     }
     &:hover {
       .overlay {
-        align-items: flex-start;
+        // align-items: flex-start;
         background-color: rgba(0, 0, 0, 0.5);
         // #000623E5
+        .title {
+          // position: relative;
+          transform: translateX(0);
+        }
         .desc {
           position: relative;
           transform: translate(0);
@@ -149,5 +162,10 @@
     font-size: 4.8rem;
     line-height: 4rem;
     margin-bottom: 2rem;
+  }
+  .resize-width {
+    @media (min-width: 1400px) {
+      width: 90%;
+    }
   }
 }

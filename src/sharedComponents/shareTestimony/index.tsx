@@ -22,7 +22,7 @@ export const ShareTestimony = () => {
 
       <Modal
         size="lg"
-        className="modal-mobile"
+        className="modal-mobile custom-modal-show"
         show={openShareTestimonyModal}
         onHide={closeShareTestimonyModal}
         aria-labelledby="contained-modal-title-vcenter"

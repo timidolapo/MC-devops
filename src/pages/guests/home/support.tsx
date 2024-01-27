@@ -16,21 +16,24 @@ export const Support = () => {
         <div className="card-img-container">
           <img src={pray} className="card-img" alt="pray" />
           <div className="overlay">
-            <p className="text-2xl fw-semi-bold mb-0">PRAY</p>
+            <p className="text-2xl fw-semi-bold mb-0 title">PRAY</p>
             <p className="desc text-lg fw-regular">
-              Please say this simple prayer <br /> “Father in the name of Jesus,
-              I ask that you breathe a fresh anointing upon this work and cause
-              readers to be impacted by your word and receive solutions and
-              answers to their needs. I ask that you bring helpers to support
-              this work and make it grow and reach more people. That your name
-              may be glorified in all the earth.”
+              <div className="mb-2">Please say this simple prayer</div>
+              <div>
+                “Father in the name of Jesus, I ask that you breathe a fresh
+                anointing upon this work and cause readers to be impacted by
+                your word and receive solutions and answers to their needs. I
+                ask that you bring helpers to support this work and make it grow
+                and reach more people. That your name may be glorified in all
+                the earth.”
+              </div>
             </p>
           </div>
         </div>
         <div className="card-img-container">
           <img src={share} className="card-img" alt="share" />
           <div className="overlay">
-            <p className="text-2xl fw-semi-bold mb-0">SHARE</p>
+            <p className="text-2xl fw-semi-bold mb-0 title">SHARE</p>
             <p className="desc text-lg fw-regular">
               Please help Us spraed this resource by sharing widely on all your
               social media handles and encourage others to use the resources and
@@ -41,7 +44,7 @@ export const Support = () => {
         <div className="card-img-container">
           <img src={give} className="card-img" alt="give" />
           <div className="overlay">
-            <p className="text-2xl fw-semi-bold mb-0">GIVE</p>
+            <p className="text-2xl fw-semi-bold mb-0 title">GIVE</p>
             <p className="desc text-lg fw-regular">
               As God will lay on your heart to do so,we encourage you to give to
               support us in creating more products to impact lives. Please do
@@ -56,7 +59,7 @@ export const Support = () => {
         <div className="card-img-container">
           <img src={comment} className="card-img" alt="comment" />
           <div className="overlay">
-            <p className="text-2xl fw-semi-bold mb-0">COMMENT</p>
+            <p className="text-2xl fw-semi-bold mb-0 title">COMMENT</p>
             <p className="desc text-lg fw-regular">
               Your thoughs matter! Share your insights, reflections and the
               impact the Messianic comics have had on your falth journey. Let

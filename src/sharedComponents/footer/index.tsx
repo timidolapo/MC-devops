@@ -18,9 +18,30 @@ export const Footer = () => {
             <img src={logo} alt="messsainic_logo" className="nav-logo" />
           </NavLink>
           <div className="d-flex">
-            <img src={facebook} alt="facebook" className="social-icon" />
-            <img src={instagram} alt="instagram" className="social-icon" />
-            <img src={whatsapp} alt="whatsapp" className="social-icon" />
+            <a
+              href="https://facebook.com"
+              target="_blank"
+              className="text-decoration-none"
+              rel="noreferrer"
+            >
+              <img src={facebook} alt="facebook" className="social-icon" />
+            </a>
+            <a
+              href="https://instagram.com"
+              target="_blank"
+              className="text-decoration-none"
+              rel="noreferrer"
+            >
+              <img src={instagram} alt="instagram" className="social-icon" />
+            </a>
+            <a
+              href="tel:123456789"
+              target="_blank"
+              className="text-decoration-none"
+              rel="noreferrer"
+            >
+              <img src={whatsapp} alt="whatsapp" className="social-icon" />
+            </a>
           </div>
         </div>
       </div>

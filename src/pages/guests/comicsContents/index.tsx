@@ -69,20 +69,20 @@ export const ComicsContents = () => {
           </p>
           <div className="d-flex gap-3">
             <div className=" border comment-control-rounded d-flex align-items-center p-2 d-md-block d-none">
-              <img className="img-icon me-3_5" src={portrait} />
-              <img className="img-icon" src={landscape} />
+              <img className="click img-icon me-3_5" src={portrait} />
+              <img className="click img-icon" src={landscape} />
             </div>
             <div className="d-flex gap-2">
               <div className=" border comment-control-rounded d-flex align-items-center p-2 ">
-                <img className="img-icon" src={prevvv} />
+                <img className="click img-icon" src={prevvv} />
               </div>
               <div className=" border comment-control-rounded d-flex align-items-center p-2">
-                <img className="img-icon" src={nexttt} />
+                <img className="click img-icon" src={nexttt} />
               </div>
             </div>
             <div className=" border comment-control-rounded d-flex align-items-center p-2 d-md-block d-none">
-              <img className="img-icon me-3_5" src={zoom_in} />
-              <img className="img-icon" src={zoom_out} />
+              <img className="click img-icon me-3_5" src={zoom_in} />
+              <img className="click img-icon" src={zoom_out} />
             </div>
           </div>
           <div>

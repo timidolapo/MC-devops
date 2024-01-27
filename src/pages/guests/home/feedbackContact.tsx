@@ -2,11 +2,13 @@ import "./styles.scss";
 
 export const FeedbackContact = () => {
   return (
-    <section className="feedback-contact-wrapper mb-md-10 mb-6">
+    <section className="feedback-contact-wrapper mb-md-11 mb-6">
       <div className="container">
         <div className="row gx-4">
           <div className="col-md-6 col-12 my-auto pe-lg-9">
-            <h2 className="fw-bold sub-title">We’d love to hear from you</h2>
+            <h2 className="fw-bold sub-title resize-width">
+              We’d love to hear from you
+            </h2>
 
             <p className="text-xl text-grey-100">
               Have a question or feedback? Reach out and connect with us. We{" "}

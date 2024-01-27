@@ -1,5 +1,5 @@
 import { ComicCard } from "@/sharedComponents/comicCard";
-import card1 from "@/assets/images/Remember.svg";
+import card1 from "@/assets/images/remember.svg";
 import card2 from "@/assets/images/higher-sacrifice.svg";
 import card3 from "@/assets/images/Watchmen.svg";
 import card4 from "@/assets/images/Mother.svg";

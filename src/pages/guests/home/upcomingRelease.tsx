@@ -26,7 +26,7 @@ export const UpcomingRelease = () => {
   ];
 
   return (
-    <div className="container mb-5">
+    <div id="upcoming-release" className="container mb-5">
       <div>
         <p className="text-2xl fw-semi-bold mb-5">Upcoming Release</p>
         <div className="row gy-4_5">

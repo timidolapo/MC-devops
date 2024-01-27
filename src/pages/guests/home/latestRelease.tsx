@@ -17,7 +17,7 @@ export const LatestRelease = () => {
   ];
 
   return (
-    <div className="container mb-md-9 mb-6">
+    <div className="container mb-md-9 mb-6" id="latest-release">
       <div>
         <p className="text-2xl fw-semi-bold mb-5 mt-6">Latest Release</p>
         <div className="row gy-4_5">

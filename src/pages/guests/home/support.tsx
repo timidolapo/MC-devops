@@ -6,7 +6,7 @@ import share from "@/assets/images/share.svg";
 
 export const Support = () => {
   return (
-    <div className="container">
+    <div className="container" id="support">
       <p className="text-22xl fw-semi-bold mb-5">
         We trust that this resource has been a blessing to you. We would like to
         enlist your support in making this resource available to others. You may

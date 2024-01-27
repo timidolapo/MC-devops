@@ -10,6 +10,9 @@ nav {
     z-index: 10;
     width: 100%;
     top: 0;
+    @media (max-width: 767px) {
+      background-color: $blue-900;
+    }
   }
   .nav-logo {
     height: 3.2rem;

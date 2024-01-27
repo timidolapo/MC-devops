@@ -30,7 +30,7 @@ const offers = [
 
 export const Testimonies = () => {
   return (
-    <div className="container my-md-10 my-6">
+    <div id="testimonies" className="container my-md-10 my-6">
       <p className="fw-bold text-3xl text-center mb-5">
         Unveiling Testimonies of Faith and Transformation!
       </p>

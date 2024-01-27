@@ -2,7 +2,7 @@ import "./styles.scss";
 
 export const FeedbackContact = () => {
   return (
-    <section className="feedback-contact-wrapper mb-md-11 mb-6">
+    <section id="contact" className="feedback-contact-wrapper mb-md-11 mb-6">
       <div className="container">
         <div className="row gx-4">
           <div className="col-md-6 col-12 my-auto pe-lg-9">

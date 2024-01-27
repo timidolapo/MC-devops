@@ -37,6 +37,7 @@
     position: relative;
     overflow: scroll;
     height: calc(100vh - 13rem);
+    margin-top: 3rem;
     &::-webkit-scrollbar {
       display: none;
     }

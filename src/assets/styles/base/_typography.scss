@@ -1,0 +1,90 @@
+@import "../abstract/variables";
+.fw-regular {
+  font-weight: 400;
+  font-family: "Genos", sans-serif;
+}
+.fw-medium {
+  font-weight: 500;
+  font-family: "Genos", sans-serif;
+}
+.fw-semi-bold {
+  font-weight: 600;
+  font-family: "Genos", sans-serif;
+}
+.fw-bold {
+  font-weight: 800;
+  font-family: "Genos", sans-serif;
+}
+.click {
+  cursor: pointer;
+}
+
+.text-2xs {
+  font-size: 1rem !important;
+}
+.text-xs {
+  font-size: 1.2rem !important;
+}
+.text-sm {
+  font-size: 1.4rem !important;
+}
+.text-lg {
+  font-size: 1.6rem !important;
+}
+.text-xl {
+  font-size: 1.8rem !important;
+}
+.text-xxl {
+  font-size: 2rem !important;
+}
+
+.text-2xl {
+  font-size: 2.4rem !important;
+}
+.text-22xl {
+  font-size: 3rem !important;
+  @media (max-width: 600px) {
+    font-size: 2.5rem !important;
+    line-height: 3rem;
+  }
+}
+.text-3xl {
+  font-size: 4rem !important;
+  @media (max-width: 600px) {
+    font-size: 3.4rem !important;
+  }
+}
+
+.title {
+  font-size: 5.7rem;
+  line-height: 4.7rem;
+  @media (max-width: 767px) {
+    font-size: 4.7rem;
+    line-height: 4.3rem;
+  }
+  @media (max-width: 400px) {
+    font-size: 3.7rem;
+    line-height: 4.3rem;
+  }
+}
+
+.sub-title {
+  font-size: 4.8rem;
+  @media (max-width: 600px) {
+    font-size: 4.1rem !important;
+  }
+}
+
+.line-height-1 {
+  line-height: 1;
+}
+
+.gy-5 {
+  --bs-gutter-y: 3rem;
+}
+.gy-4_5 {
+  --bs-gutter-y: 2.5rem;
+}
+.gy-3_5 {
+  --bs-gutter-y: 1rem;
+}

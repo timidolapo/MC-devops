@@ -1,0 +1,21 @@
+@import "../../../assets/styles/abstract/variables";
+.all-comics-banner {
+  margin-top: 1.8rem;
+  background-image: linear-gradient(rgba(0, 6, 35, 0.6), rgba(0, 6, 35, 0.6)),
+    url(../../../assets/images/all-comics-banner.svg);
+  border-radius: 2.4rem;
+  height: 45rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  .all-comics-text {
+    color: $white-000;
+    position: absolute;
+    left: 5rem;
+    bottom: 6rem;
+    @media (max-width: 600px) {
+      left: 2rem;
+    }
+  }
+}

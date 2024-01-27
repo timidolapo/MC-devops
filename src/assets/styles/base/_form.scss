@@ -1,0 +1,52 @@
+@import "../abstract/variables";
+
+.form-control {
+  background: $primary-300;
+  border: none !important;
+  border-radius: 0.8rem;
+  min-height: 4.5rem;
+  font-size: 1.5rem;
+  padding-left: 1.5rem;
+
+  &:focus,
+  &:active {
+    box-shadow: none !important;
+    outline: none !important;
+    border: 0.1rem solid $primary-300 !important;
+  }
+  &.textarea-placeholder {
+    padding-top: 1.3rem;
+  }
+  &::placeholder {
+    color: rgba($color: $grey-200, $alpha: 0.4);
+    font-weight: 400;
+    font-size: 1.6rem;
+  }
+}
+.file-picker {
+  width: 80%;
+  min-height: 13rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0.1rem dashed rgba(3, 12, 64, 0.2);
+  cursor: pointer;
+  border-radius: 0.6rem;
+  @media (max-width: 400px) {
+    width: 70%;
+    padding-inline: 1rem;
+  }
+}
+.preview {
+  background: $primary-300;
+  width: 20%;
+  min-height: 13rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 0.6rem;
+  @media (max-width: 400px) {
+    width: 30%;
+  }
+}

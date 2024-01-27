@@ -1,0 +1,22 @@
+@import "../../assets/styles/abstract/variables";
+
+.footer-wrapper {
+  margin-top: auto;
+  background: $blue-900;
+  padding-top: 5rem;
+  .footer-logo {
+    height: 3.2rem;
+    object-fit: contain;
+  }
+  .social-icon {
+    height: 2.4rem;
+    width: 2.4rem;
+    margin-left: 1.6rem;
+  }
+
+  .copyright-wrapper {
+    margin-top: 5rem;
+    border-top: 0.1rem solid rgba($color: $white-000, $alpha: 0.1);
+    padding-block: 3rem;
+  }
+}

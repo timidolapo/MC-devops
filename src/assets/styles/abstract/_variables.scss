@@ -1,0 +1,70 @@
+// Import your fonts here
+@import url("https://fonts.googleapis.com/css2?family=Genos:ital,wght@0,400;0,500;0,600;0,800;1,400;1,600&display=swap");
+
+// Alerts
+$error: #d93b2b;
+
+// Primary colors
+$blue-400: #006ef5;
+$blue-450: #000623e5;
+$blue-900: #030c40;
+
+$primary-300: #ebf2fc;
+
+// Secondary Colours
+$black-00: #000000b2;
+$black-000: #000000;
+$black-100: #121212;
+
+// Neutrals & Shades
+$whitte-00: #cdcfd9;
+$white-000: #ffffff;
+$grey-100: #c9c9c9;
+$grey-200: #484848;
+
+$theme-colors: (
+  "error": $error,
+  "blue-400": $blue-400,
+  "blue-450": $blue-450,
+  "blue-900": $blue-900,
+
+  "black-00": $black-00,
+  "black-000": $black-000,
+  "black-100": $black-100,
+
+  "white-000": $white-000,
+  "whitte-00": $whitte-00,
+  "grey-100": $grey-100,
+  "grey-200": $grey-200,
+
+  "primary-300": $primary-300,
+);
+
+$spacers: (
+  "3_5": 1.2rem,
+  "4_5": 2rem,
+  "5_5": 3.6rem,
+  "5_6": 4.5rem,
+  6: 6rem,
+  7: 7rem,
+  8: 8rem,
+  9: 9rem,
+  10: 12rem,
+);
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1350px,
+);
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1300px,
+);
+
+$line-height-0: 0;

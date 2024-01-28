@@ -35,19 +35,19 @@ export const Sidebar = () => {
             </div>
           </div>
           <div className="d-flex flex-column text-sm mb-4 px-3 mt-3">
-            <a href="#latest-release" onClick={toggleSidebar}>
+            <a href="/#latest-release" onClick={toggleSidebar}>
               Lastest Release
             </a>
-            <a href="#upcoming-release" onClick={toggleSidebar}>
+            <a href="/#upcoming-release" onClick={toggleSidebar}>
               Upcoming Release
             </a>
-            <a href="#support" onClick={toggleSidebar}>
+            <a href="/#support" onClick={toggleSidebar}>
               Support
             </a>
-            <a href="#testimonies" onClick={toggleSidebar}>
+            <a href="/#testimonies" onClick={toggleSidebar}>
               Testimonies
             </a>
-            <a href="#contact" onClick={toggleSidebar}>
+            <a href="/#contact" onClick={toggleSidebar}>
               Contact
             </a>
           </div>

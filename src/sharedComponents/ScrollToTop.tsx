@@ -5,8 +5,8 @@ const ScrollToTop = () => {
   const location = useLocation();
 
   useEffect(() => {
-    console.log(location);
     window.scrollTo(0, 0);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [location.pathname]);
   return null;
 };

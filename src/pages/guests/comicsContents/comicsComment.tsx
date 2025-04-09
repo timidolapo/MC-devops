@@ -42,7 +42,7 @@ export const ComicsComment = ({
               <p className="text-sm ">
                 Have a question or feedback? Reach out and connect with us. We
                 genuinely value your feedback and look forward to hearing from
-                you.
+                you. TEST
               </p>
             </div>
           </div>

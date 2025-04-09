@@ -11,7 +11,7 @@ export const FeedbackContact = () => {
             </h2>
 
             <p className="text-xl text-grey-100">
-              Have a question or feedback? Reach out and connect with us. We{" "}
+              Do you have a question or feedback? kindly reach out and connect with us. We{" "}
               genuinely value your feedback and look forward to hearing from
               you.
             </p>
